@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#mapid { 
+    height: 100%;
+    z-index: 1;
+}
+
+.search {
+    position: fixed;
+    z-index: 3;
+    top: 2%;
+}
+
+.input-search {
+    width: 325px;
+    font-size: 25px;
+    opacity: 0.8;
+    border-radius: 0.5em;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+
+/* info control */
+
+.info {
+    padding: 6px 8px;
+    font: 30px/40px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+/* leaflet zoom control */
+
+.leaflet-left {
+    margin-top: 50px;
+}
